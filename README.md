@@ -43,7 +43,7 @@ $ yarn dev
 Or:
 
 ```bash
-$ yarn dev
+$ yarn start
 ```
 
 ##  📝 Final message
