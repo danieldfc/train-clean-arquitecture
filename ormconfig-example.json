@@ -1,11 +1,10 @@
 {
-  "name": "default",
   "type": "mysql",
   "host": "localhost",
   "port": 3306,
-  "username": "root",
-  "password": "docker",
-  "database": "db_test",
+  "username": "your_username_database",
+  "password": "your_password_database",
+  "database": "your_database_name",
   "entities": [
     "./src/modules/**/infra/typeorm/entities/*.entity.ts"
   ],
@@ -13,6 +12,7 @@
     "./src/shared/infra/typeorm/migrations/*.ts"
   ],
   "cli": {
+    "entitiesDir": "./src/modules/**/infra/typeorm/entities",
     "migrationsDir": "./src/shared/infra/typeorm/migrations"
   },
   "synchronize": true
